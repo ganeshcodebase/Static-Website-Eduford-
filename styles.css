@@ -1,0 +1,940 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* ************************************************ header css starts here ****************************************  */
+.header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    position:absolute;
+}
+.container{
+    width: 90%;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 70px;
+    width: 17%;
+}
+.logo1{
+    height: 70px;
+    width: 100%;
+}
+.nav{
+    height: 70px;
+    width: 35%;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+   margin-top: 25px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+ul li::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: red;
+    display: block;
+    position: relative;
+    margin: auto;
+    transition: .4s;
+}
+ul li:hover::after{
+    width: 100%;
+}
+/* ************************************************ header css ends here *****************************************  */
+/* ************************************************ banner css starts here  **************************************  */
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image:url("eduford_img/banner.png");
+    background-position: center;
+    background-size: cover;
+}
+.banner_container{
+    width: 100%;
+}
+.layer{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(36, 33, 33, 0.7) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_desc{
+    height: 40%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+   }
+p{
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+   text-align: center;
+   color: white;
+}
+.banner_btn{
+    font-size: 15px;
+    padding: 8px 13px 8px 13px;
+    margin-top: 20px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    transition: .7s;
+    cursor: pointer;
+}
+.banner_btn:hover{
+    background-color: red;
+}
+/* ************************************************ banner css ends here *****************************************  */
+/* ************************************************ courses css starts *******************************************  */
+.course{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.course_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.course_title{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.course_desc{
+    color: black;
+    margin-top: 10px;
+}
+.course-boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.course-box{
+    margin-top: 30px;
+    height: 200px;
+    width: 30%;
+}
+.padd{
+    height: 200px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.padd:hover{
+    box-shadow: 2px 2px 10px 1px black;
+    transition: .4s;
+}
+.course1,.course2,.course3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+   padding-right: 10px;
+}
+.course1-title,.course2-title,.course3-title{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.course1-desc,.course2-desc,.course3-desc{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+/* ************************************************ courses css ends *********************************************** */
+/* ************************************************ campuses css starts ******************************************** */
+.campuses{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.campuses_con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.campus-title{
+    color: black;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.campus-desc{
+    color: black;
+    margin-top: 10px;
+}
+.campus_boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.campus-box1,.campus-box2,.campus-box3{
+    margin-top: 30px;
+    height: 450px;
+    width: 30%;
+    background-image: url("eduford_img/london.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+.campus-box2{
+    background-image: url("eduford_img/newyork.png");
+}
+.campus-box3{
+    background-image: url("eduford_img/washington.png");
+}
+.campus-padd{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.campus-padd:hover{
+    border-radius: 10px;
+    background-color: rgba(243, 74, 74, 0.7);
+    transition: .5s;
+}
+.campus-box-title{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    transform:translateY(90%);
+    transition: .5s;
+}
+.campus-padd:hover .campus-box-title{
+    transform:translateY(50%);
+}
+/* ************************************************ campuses css ends ********************************************  */
+/* ************************************************ facilities css starts ****************************************  */
+.facilities{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.facilities_title{
+    font-size: 25px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.facilities_desc{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.facilities_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.faci-boxes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.faci-box1,.faci-box2,.faci-box3{
+    height: 350px;
+    width: 30%;
+}
+.faci-padd1,.faci-padd2,.faci-padd3{
+    height: 300px;
+    width: 100%;
+    background-image: url("eduford_img/library.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.faci-padd2{
+    background-image: url("eduford_img/basketball.png");
+}
+.faci-padd3{
+    background-image: url("eduford_img/cafeteria.png");
+}
+.faci-content{
+    height: 100px;
+    width: 100%;
+}
+.faci-box-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.faci-box-desc{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 3px;
+}
+/* ************************************************ facilities css ends ******************************************  */
+/* ************************************************ user reviews css starts **************************************  */
+.reviews{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.reviews-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviews-title{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.reviews-desc{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.review-boxes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.review-box1,.review-box2{
+    height: 150px;
+    width: 45%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+ .review-box1:hover,.review-box2:hover{
+box-shadow: 2px 2px 10px 1px black;
+transition: .4s;
+} 
+.review-box-image1,.review-box-image2{
+    height: 200px;
+    width: 40%;
+}
+.review-box-img1,.review-box-img2{
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    background-image: url("eduford_img/user1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.review-box-content{
+    display: flex;
+    flex-direction: column;
+}
+.review-user{
+    margin-top: 5px;
+    color: red;
+}
+.review-box-img2{
+    background-image: url("eduford_img/user2.jpg");
+}
+.review-box-desc{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    color: black;
+    font-size: 12px;
+    width: 100%;
+}
+.review-box-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 700;
+}
+/* ************************************************ user reviews css ends ****************************************  */
+/* ************************************************ banner2 starts here ******************************************* */
+.banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.banner2_container{
+    width: 84%;
+    height: 300px;
+   margin-bottom: 50px;
+   border-radius: 10px;
+}
+.banner2_padd{
+    width: 100%;
+    height: 300px;
+    background-image: url('eduford_img/banner2.jpg');
+    background-size: cover;
+   border-radius: 10px;
+}
+.banner2_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.banner2_title{
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.layer2{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(36, 33, 33, 0.7) ;
+    border-radius: 10px;
+}
+.banner2_button{
+    margin-top: 20px;
+    border: solid white 1px;
+    padding: 7px 20px 5px 20px;
+    color: white;
+    cursor: pointer;
+    transition: .7s;
+    font-size: 13px;
+}
+.banner2_button:hover{
+    background-color: rgba(233, 24, 24, 0.863);
+}
+/* ************************************************ banner2 ends here ******************************************* */
+/* ************************************************ footer starts here ******************************************* */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+}
+.footer_container{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_title{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.footer_desc{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    width: 60%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.fa2{
+    text-decoration: none;
+    margin: 10px;
+    padding: 3px;
+}
+.fa-facebook{
+    color: red;
+}
+.fa-twitter{
+    color: red;
+}
+.fa-instagram{
+    color: red;
+}
+.fa-youtube{
+    color: red;
+}
+.fa2:hover{
+   color: blue;
+}
+.footer_copy{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; 
+}
+.fa3{
+    text-decoration: none;
+    color: red;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+/*******************************************************footer ends here *******************************************/
+/******************************************************** about_banner css starts **********************************/
+.about_banner{
+    height:50vh;
+    width: 100%;
+    background-image: url("eduford_img/background.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+.about_layer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(36, 33, 33, 0.7) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_content_title{
+    margin-top: 100px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/* *********************************************************about page css ends ********************************* */
+.about-container{
+    display: flex;
+    justify-content: center;
+}
+.about_banner2_container{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content:center;
+}
+.about_banner2{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.about_banner2_content1{
+    height: 50vh;
+    width: 50%;
+}
+.about_banner2_content_title{
+    font-size:25px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-right: 100px;
+}
+.about_banner2_content_desc{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.about_banner2_content2{
+    height: 50vh;
+    width: 50%;
+    background-image: url("eduford_img/about.jpg");
+    background-size: cover;
+}
+.about_banner2_btn{
+    margin-top: 20px;
+    border: 2px solid red;
+    padding: 5px 20px 5px 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.about_banner2_btn2{
+ text-decoration: none;
+ color: red;   
+}
+.about_banner2_btn2:hover{
+    color: white;
+}
+.about_banner2_btn:hover{
+    background-color: red;
+    transition: 1s;
+}
+/* *********************************************************about page css ends ********************************* */
+/* *********************************************************blog page css starts ********************************* */
+.container_blog{
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.banner_container_blog{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+}
+.banner_image{
+    height: 60vh;
+    width: 60%;
+    background-image: url("/eduford_img/certificate.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.post_categories{
+    height: 60vh;
+    width: 30%;
+    margin: auto;
+}
+.post_heading{
+   background-color: red;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+.post_content_container{
+    display: flex;
+    justify-content: space-between;
+}
+.post_content{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.img_content_container{
+    width: 90%;
+   margin: auto;
+   margin-top: 5vh;
+   margin-bottom: 5vh;
+}
+.img_content{
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.comment_container{
+    border: 1px solid rgb(224, 221, 221);
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+.comment_heading{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+input{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 97%;
+    height: 30px;
+    border-style: none;
+    background-color: rgb(224, 221, 221);
+}
+textarea{
+    background-color: rgb(224, 221, 221);
+    border-style: none;
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.submit{
+    width: 20%;
+    margin-top: 20px;
+    border:2px solid red;
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
+}
+.submit:hover{
+    color: white;
+    background-color: red;
+    transition: 1s;
+}
+/* *********************************************************blog page css ends ********************************* */
+/* *********************************************************contact page starts ********************************* */
+.google_maps{
+    text-align: center;
+    margin: auto;
+    margin-top: 10vh;
+}
+.fa-home,.fa-envelope-o,.fa-phone{
+    color: red;
+    margin-right: 10px;
+}
+.contact_section_container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 15vh;
+}
+.info_section{
+    width: 50%;
+}
+.info_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+.info_desc{
+    margin-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    margin-bottom: 20px;
+}
+.send_message_section{
+    width: 50%;
+}
+/* *********************************************************contact page ends ********************************* */
+.sidenav{
+    display: none !important;
+}
+/* *********************************************************Responsive in mobile ********************************* */
+@media(max-width: 700px){
+    .logo1{
+        height: 50px;
+        margin-top: 10px;
+        width: 150px;
+    }
+    .banner_desc{
+        height: 40%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        }
+    h1{
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    .nav-links ul{
+        display: block;
+        padding: 30px;
+    }
+    .nav-links ul li{
+        padding: 10px;
+    }
+    .nav-links{
+        position: fixed;
+        background-color: red;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;  
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .nav .fa{
+        display: block !important;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        }
+    .nav .fa-bars{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .course-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .course-box{
+        margin-top: 30px;
+        height: 200px;
+        width: 100%;
+    }
+    .course_desc{
+        font-size: 13px;
+    }
+    .padd{
+        height: 220px;
+    }
+    .campus-desc{
+        font-size: 11px;
+    }
+    .campus_boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .campus-box1,.campus-box2,.campus-box3{
+        width: 100%;
+    }
+    .faci-boxes{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .faci-box1,.faci-box2,.faci-box3{
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    .facilities_desc{
+        font-size: 11px;
+    }
+    .faci-box-desc{
+        font-size: 13px;
+    }
+    .reviews-title{
+       font-size: 25px;
+    }
+    .reviews-desc{
+        font-size: 11px;
+    }
+    .review-boxes{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .review-box1,.review-box2{
+        height: 190px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .banner2_container{
+        width: 90%;
+    }
+    .banner2_title{
+        font-size: 20px;
+    }
+    .banner2_container{
+        height: 250px;
+    }
+    .banner2_padd{
+        height: 250px;
+    }
+    .layer2{
+        height: 250px;
+    }
+    .footer_desc{
+        width: 90%;
+    }
+    .about_banner2{
+      height: 90vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    
+    }
+    .about_banner2_content1{
+        height: 100vh;
+        width: 100%;
+    }
+    .about_banner2_content_desc{
+        text-align: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .about_banner2_content2{
+        height: 40vh;
+        width: 100%;
+        margin-top: 10px;
+        background-image: url("eduford_img/about.jpg");
+        background-size: cover;
+    }
+    .about_banner2_image{
+        width: 100%;
+        height: 50vh;
+    }
+    .about_banner2_content_title{
+        font-size: 30px;
+        width: 90%;
+    }
+    .banner_container_blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100vh;
+    }
+    .banner_image{
+        height: 100vh;
+        width: 100%;
+        background-image: url("/eduford_img/certificate.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .post_categories{
+        height: 60vh;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .img_content{
+        width: 100%;
+    }
+    .image_content_heading{
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-top: 270px;
+    }
+    .image_content_desc{
+        font-size: 15px;
+    }
+    .submit{
+        width: 40%;
+        margin-top: 20px;
+        border:2px solid red;
+        color: red;
+        background-color: transparent;
+    }
+
+    .contact_section_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .info_section{
+        width: 100%;
+    }
+    .send_message_section{
+        width: 100%;
+    }   
+}
+/* *********************************************************Responsive in mobile ends ********************************* */

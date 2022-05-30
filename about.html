@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;1,300;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header section starts here  -->
+    <div class="header">
+        <div class="container header_container">
+            <div class="logo"><a href="index.html"><img src="eduford_img/logo.png" class="logo1"></a></div>
+            <div class="nav">
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times sidenav" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars sidenav" onclick="showmenu()"></i>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- header section ends here  -->
+
+    <!-- about_banner starts here -->
+    <div class="about_banner container">
+        <div class="about_layer">
+            <div class="about_content">
+                <div class="about_content_title">
+                    About Us
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about_banner ends here  -->
+
+    <!-- about_banner2 starts  -->
+    <div class="about-container">
+        <div class="about_banner2_container container ">
+            <div class="about_banner2">
+                <div class="about_banner2_content1">
+                    <div class="about_banner2_content_title">
+                        We are the World's largest university
+                    </div>
+                    <div class="about_banner2_content_desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem corporis,
+                        ipsa ducimus laboriosam optio nisi aspernatur necessitatibus laborum exercitationem!
+                        Libero id praesentium placeat perferendis architecto inventore delectus labore sit aspernatur.
+                    </div>
+                    <div>
+                        <button class="about_banner2_btn">
+                            <a class="about_banner2_btn2" href="#">EXPLORE NOW</a>
+                        </button>
+                    </div>
+                </div>  
+                <div class="about_banner2_content2">
+                    <div class="about_banner2_image">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+ <!-- about_banner2 ends  -->
+
+
+
+
+
+
+
+
+    <!-- footer start here  -->
+    <footer>
+        <div class="footer_container">
+            <div class="footer_content">
+                <div class="footer_title">
+                    About Us
+                </div>
+                <div class="footer_desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Nemo nobis natus officia maxime debitis reiciendis obcaecati dolores id nam qui.
+                    Amet, dicta? Architecto eum assumenda ipsam inventore blanditiis laudantium nulla.
+
+                </div>
+                <div class="footer_icons">
+                    <a href="#" class="fa fa-facebook fa2"></a>
+                    <a href="#" class="fa fa-instagram fa2"></a>
+                    <a href="#" class="fa fa-twitter fa2"></a>
+                    <a href="#" class="fa fa-youtube fa2"></a>
+                </div>
+                <div class="footer_copy">
+                    made with <a href="#" class="fa fa-heart-o fa3"></a> by Ganesh Guntuku
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer ends here  -->
+
+    <!-- ----------------------------------javascript --------------------------------------- -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
