@@ -610,7 +610,7 @@ transition: .4s;
 .banner_image{
     height: 60vh;
     width: 60%;
-    background-image: url("/eduford_img/certificate.jpg");
+    background-image: url("eduford_img/certificate.jpg");
     background-size: cover;
     background-position: center;
 }
