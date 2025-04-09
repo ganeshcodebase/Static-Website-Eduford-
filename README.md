@@ -1,5 +1,3 @@
-https://ganeshcodebase.github.io/Static-Website-Eduford-/
-
 # 🎓 Responsive College Website
 
 A responsive and informative **static college website** built with **HTML, CSS, and JavaScript**. This project is designed to provide an accessible, user-friendly platform for showcasing a college's core information, updates, and offerings — optimized for all devices.
